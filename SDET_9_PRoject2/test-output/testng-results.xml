@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="3" total="5" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="82167" started-at="2021-02-05T05:04:52Z" finished-at="2021-02-05T05:06:14Z">
+    <groups>
+      <group name="regressionTest">
+        <method signature="TestCase12.invoice_1()[pri:0, instance:com.crm.autodesk.AssignmentTestCase.TestCase12@35d176f7]" name="invoice_1" class="com.crm.autodesk.AssignmentTestCase.TestCase12"/>
+      </group> <!-- regressionTest -->
+      <group name="smokeTest">
+        <method signature="TestCase13.invoice_1()[pri:0, instance:com.crm.autodesk.AssignmentTestCase.TestCase13@1dfe2924]" name="invoice_1" class="com.crm.autodesk.AssignmentTestCase.TestCase13"/>
+      </group> <!-- smokeTest -->
+    </groups>
+    <test name="Test" duration-ms="82167" started-at="2021-02-05T05:04:52Z" finished-at="2021-02-05T05:06:14Z">
+      <class name="com.crm.autodesk.AssignmentTestCase.TestCase12">
+        <test-method status="PASS" signature="configBS()[pri:0, instance:com.crm.autodesk.AssignmentTestCase.TestCase12@35d176f7]" name="configBS" is-config="true" duration-ms="12" started-at="2021-02-05T05:04:52Z" finished-at="2021-02-05T05:04:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBS -->
+        <test-method status="PASS" signature="configBC()[pri:0, instance:com.crm.autodesk.AssignmentTestCase.TestCase12@35d176f7]" name="configBC" is-config="true" duration-ms="6936" started-at="2021-02-05T05:04:52Z" finished-at="2021-02-05T05:04:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBC -->
+        <test-method status="PASS" signature="configBM()[pri:0, instance:com.crm.autodesk.AssignmentTestCase.TestCase12@35d176f7]" name="configBM" is-config="true" duration-ms="2196" started-at="2021-02-05T05:04:59Z" finished-at="2021-02-05T05:05:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method status="PASS" signature="invoice_1()[pri:0, instance:com.crm.autodesk.AssignmentTestCase.TestCase12@35d176f7]" name="invoice_1" duration-ms="31824" started-at="2021-02-05T05:05:02Z" finished-at="2021-02-05T05:05:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invoice_1 -->
+        <test-method status="PASS" signature="configAM()[pri:0, instance:com.crm.autodesk.AssignmentTestCase.TestCase12@35d176f7]" name="configAM" is-config="true" duration-ms="1083" started-at="2021-02-05T05:05:33Z" finished-at="2021-02-05T05:05:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method status="PASS" signature="configAC()[pri:0, instance:com.crm.autodesk.AssignmentTestCase.TestCase12@35d176f7]" name="configAC" is-config="true" duration-ms="651" started-at="2021-02-05T05:05:35Z" finished-at="2021-02-05T05:05:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAC -->
+        <test-method status="PASS" signature="configAT()[pri:0, instance:com.crm.autodesk.AssignmentTestCase.TestCase12@35d176f7]" name="configAT" is-config="true" duration-ms="1" started-at="2021-02-05T05:06:14Z" finished-at="2021-02-05T05:06:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAT -->
+        <test-method status="PASS" signature="configAS()[pri:0, instance:com.crm.autodesk.AssignmentTestCase.TestCase12@35d176f7]" name="configAS" is-config="true" duration-ms="1" started-at="2021-02-05T05:06:15Z" finished-at="2021-02-05T05:06:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAS -->
+      </class> <!-- com.crm.autodesk.AssignmentTestCase.TestCase12 -->
+      <class name="com.crm.autodesk.AssignmentTestCase.TestCase13">
+        <test-method status="PASS" signature="configBC()[pri:0, instance:com.crm.autodesk.AssignmentTestCase.TestCase13@1dfe2924]" name="configBC" is-config="true" duration-ms="6490" started-at="2021-02-05T05:05:35Z" finished-at="2021-02-05T05:05:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBC -->
+        <test-method status="PASS" signature="configBM()[pri:0, instance:com.crm.autodesk.AssignmentTestCase.TestCase13@1dfe2924]" name="configBM" is-config="true" duration-ms="2151" started-at="2021-02-05T05:05:42Z" finished-at="2021-02-05T05:05:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method status="PASS" signature="invoice_1()[pri:0, instance:com.crm.autodesk.AssignmentTestCase.TestCase13@1dfe2924]" name="invoice_1" duration-ms="28967" started-at="2021-02-05T05:05:44Z" finished-at="2021-02-05T05:06:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invoice_1 -->
+        <test-method status="PASS" signature="configAM()[pri:0, instance:com.crm.autodesk.AssignmentTestCase.TestCase13@1dfe2924]" name="configAM" is-config="true" duration-ms="990" started-at="2021-02-05T05:06:13Z" finished-at="2021-02-05T05:06:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method status="PASS" signature="configAC()[pri:0, instance:com.crm.autodesk.AssignmentTestCase.TestCase13@1dfe2924]" name="configAC" is-config="true" duration-ms="647" started-at="2021-02-05T05:06:14Z" finished-at="2021-02-05T05:06:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAC -->
+      </class> <!-- com.crm.autodesk.AssignmentTestCase.TestCase13 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

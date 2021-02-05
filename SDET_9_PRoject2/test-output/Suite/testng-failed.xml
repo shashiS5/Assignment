@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <groups>
+      <run>
+        <include name="smokeTest"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.crm.autodesk.AssignmentTestCase.TestClass15">
+        <methods>
+          <include name="invoice_1"/>
+          <include name="configAS"/>
+          <include name="configAC"/>
+          <include name="configBS"/>
+          <include name="configBC"/>
+          <include name="configAT"/>
+          <include name="configAM"/>
+          <include name="configBM"/>
+        </methods>
+      </class> <!-- com.crm.autodesk.AssignmentTestCase.TestClass15 -->
+      <class name="com.crm.autodesk.AssignmentTestCase.TestCase13">
+        <methods>
+          <include name="configAS"/>
+          <include name="configAC"/>
+          <include name="configBS"/>
+          <include name="configBC"/>
+          <include name="configAT"/>
+          <include name="invoice_1"/>
+          <include name="configAM"/>
+          <include name="configBM"/>
+        </methods>
+      </class> <!-- com.crm.autodesk.AssignmentTestCase.TestCase13 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
